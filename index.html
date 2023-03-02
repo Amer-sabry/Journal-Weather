@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather Journal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Weather Journal</h1>
+    </header>
+    <main>
+      <form id="weather-form">
+        <input type="text" id="city" placeholder="City">
+        <input type="text" id="description" placeholder="Description">
+        <input type="number" id="temperature" placeholder="Temperature (°C)">
+        <button type="submit">Add Entry</button>
+      </form>
+      <section id="entries">
+        <h2>Entries:</h2>
+        <ul id="entry-list">
+          <!-- Entries will be added here dynamically -->
+        </ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
